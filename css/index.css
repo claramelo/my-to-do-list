@@ -1,0 +1,25 @@
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+.header {
+    display: block;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button {
+    margin: 8px;
+    color: black;
+
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-self: flex-end;
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Todo List</title>
+        <link rel="icon" href="img/fav.ico" type="image/x-icon" />
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/index.css"> 
+        <link rel="stylesheet" type="text/css" href="css/card.css"> 
+    </head>
+    <body>
+        <h1 class="header"> To do List</h1>
+        <div class="content">
+            <div class="card card--creator">
+                <input 
+                    id="card-title" 
+                    class="card--input" 
+                    placeholder="Take a note ..."
+                    type="text">
+                <textarea 
+                    class="card--input" 
+                    id="card-content" 
+                    placeholder="Take a note ..." 
+                    type="text" 
+                    style="display: none;"></textarea>
+                <input 
+                    id="add-new-card"
+                    class="button"
+                    type="submit"
+                    value="Adicionar"
+                    style="display: none;">
+            </div>
+        </div>
+        <div class="board" id="card-list">
+        </div>
+    </body>
+    <script type="text/javascript" src="js/index.js"></script> 
+    <script type="text/javascript" src="js/card.js"></script> 
+    <script type="text/javascript" src="js/new-card.js"></script> 
+    <script type="text/javascript" src="js/card-options.js"></script> 
+    <script type="text/javascript" src="js/helpers/colors.js"></script> 
+</html>

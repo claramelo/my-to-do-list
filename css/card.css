@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    background:  #fb8998;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 238px;
+    margin: 16px;
+    padding: 8px;
+}
+
+.card--creator {
+    width: 566px;
+}
+
+.card--input {
+    background: #fb8998;
+    border: none;
+    color: black;
+    padding: 8px 16px; 
+}
+
+.card--text {
+    word-break: break-all;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin: 16px;
+}
