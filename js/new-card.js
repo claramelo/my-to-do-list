@@ -8,7 +8,7 @@ function setCardContent(title, content){
 
 function clearCardContent(titleElement, contentElement){
     this.content = {
-        id:(this.content !== undefined? this.content.id + 1 : 0 ),
+        id:(this.content !== undefined? this.content.id : 0 ),
         title: '',
         content: '',
     };
