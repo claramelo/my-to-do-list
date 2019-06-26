@@ -1,6 +1,6 @@
 function setCardContent(title, content){
     this.content = {
-        id: (this.content !== undefined? this.content.id + 1: 0 ),
+        id: (this.content.id !== undefined? this.content.id + 1: 0 ),
         title: title,
         content: content,
     };
